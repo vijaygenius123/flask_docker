@@ -75,3 +75,11 @@ ENTRYPOINT [ "python" ]
 ```docker
 CMD [ "app.py" ]
 ```
+
+## Building The Docker Image
+
+To build the docker image use the command below
+```bash
+docker build --tag hello_python .
+```
+ This will build an image of your app with the name as hello_python
