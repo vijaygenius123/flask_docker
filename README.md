@@ -83,3 +83,10 @@ To build the docker image use the command below
 docker build --tag hello_python .
 ```
  This will build an image of your app with the name as hello_python
+
+## Running The Docker Image
+
+To run the image you just created run the command below
+```bash
+docker run -p 5000:5000 hello_python
+```
